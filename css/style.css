@@ -1,0 +1,171 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 20px 0;
+	/*border: 1px solid red;*/
+}
+/*header banner*/
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+/*getway blog*/
+.container2{
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.c_span{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	display: block;
+}
+.c_h1{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_p{
+	margin-top: 0;
+	margin-bottom: 50px;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.logo{
+	margin-top: 14px;
+	float: left;
+	width: 13%;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 70%;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	padding: 3px 3px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*getway start*/
+.getway{
+	padding: 75px 0;
+}
+.g_content{}
+
+/*getway start*/
+/*getway end*/
+/*blog start*/
+.blog{
+	padding: 75px 0;
+}
+.single_blog{
+	width: 47%;
+	float: left;
+	margin-bottom: 10px;
+}
+.single_blog:nth-child(even){
+	margin-left: 6%;
+}
+.single_blog img{
+	margin-bottom: 25px;
+	width: 100%;
+}
+/*blog end*/
+/*news start*/
+.newa{
+	background-color: #ddd;
+	min-height: 400px;
+}
+/*news end*/
+/*load start*/
+.load{
+	padding: 70px 0;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #000;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s;
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+/*load end*/
+/*footer start*/
+.terms{
+	float: left;
+}
+.terms ul{}
+.terms ul li{
+	float: left;
+	padding: 10px;
+	list-style: none;
+}
+.terms ul li a{
+text-decoration: none;
+display: inline-block;
+color: #525252;
+}
+.social{
+	float: right;
+}
+.social ul{
+	list-style: none;
+}
+/*footer end*/
